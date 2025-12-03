@@ -1,0 +1,137 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Erik Fisher</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #1d3557;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 850px;
+            margin: 40px auto;
+            background: lightblue;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .photo {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            object-fit: cover;
+            border: 4px solid #1d3557;
+        }
+
+        h2 {
+            color: #1d3557;
+            border-left: 6px solid #457b9d;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #1d3557;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hoja de Vida – Erik Fisher</h1>
+        <p>Personaje del libro "Tangerine"</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Foto -->
+        <img class="photo" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/CharacterBoy.png" alt="Foto de Erik Fisher">
+
+        <!-- Datos personales -->
+        <section class="section info">
+            <h2>Datos del Personaje</h2>
+            <p><strong>Nombre:</strong> Erik Fisher.</p>
+            <p><strong>Edad:</strong> Entre 14 y 18 años.</p>
+            <p><strong>Residencia:</strong> Tangerine, Florida.
+            </p>
+            <p><strong>Ocupación:</strong> Jugador de fútbol americano.</p>
+        </section>
+
+      
+         <!-- Características -->
+        <section class="section">
+            <h2>Características del Personaje</h2>
+            <ul>
+                <li>Erik tiene una personalidad bastante molesta. Es muy grosero y cruel con su hermano Paul y sus demás compañeros, junto con su amigo bully, Arthur Bauer.</li>
+                <li> Él se comporta muy mal, le hace burlas a sus compañeros y hace de todo para poder llamar la atención y ser el mejor en todos los aspectos.
+              
+           
+              </li>
+                <li>Su rol en la historia es básicamente ser el bully y todos los eventos y secretos que pasan con él.</li>
+            </ul>
+        </section>
+
+
+        <!-- Perfil -->
+        <section class="section">
+            <h2>Perfil</h2>
+            <p>
+               Erik, el hermano mayor de Paul, es una estrella del fútbol americano. También jugaba al fútbol, ​​pero decidió cambiarse al fútbol americano a los once años al darse cuenta de que ser futbolista le daría más atención. Erik es cruel, antipático y violento.
+            </p>
+        </section>
+
+      
+        <!-- Habilidades -->
+        <section class="section">
+            <h2>Datos Extras</h2>
+            <ul>
+                <li>Texto de relleno sobre habilidad 1.</li>
+                <li>Texto de relleno sobre habilidad 2.</li>
+                <li>Texto de relleno sobre habilidad 3.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+    Camila Hernández Rubio
+    </footer>
+
+</body>
+</html>
+
+
